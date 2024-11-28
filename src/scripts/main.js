@@ -25,10 +25,6 @@ function createTree(element, data) {
 
   const currentGoods = Object.entries(data);
 
-  if (currentGoods.length === 0) {
-    return;
-  }
-
   for (const [key, value] of currentGoods) {
     const listItem = document.createElement('li');
 
